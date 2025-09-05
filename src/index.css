@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+body { @apply bg-white text-neutral-900 font-sans; }
+a.btn-primary { @apply inline-flex items-center justify-center h-11 px-5 rounded-2xl bg-vault-blue text-white font-semibold hover:bg-vault-blueDark transition; }
+a.btn-secondary { @apply inline-flex items-center justify-center h-11 px-5 rounded-2xl border font-semibold hover:bg-neutral-50 transition; }

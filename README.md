@@ -1,10 +1,13 @@
-# Vault Homepage (Vite + React)
+# Vault Homepage — Tailwind + Vite + React (Vault brand)
 
-## Render settings
+## Deploy on Render (Static Site)
 - Root Directory: `/`
 - Build Command: `npm ci && npm run build`
 - Publish Directory: `dist`
-- Node version: 18+
+- Node: 18+
+
+## Swap hero image
+Replace `public/vault-hero.jpg` with your real artwork, same filename.
 
 ## Local dev
 npm install
